@@ -6,7 +6,7 @@ text = ''
 
 #Streamlit app
 st.title('Teste: <nome do teste>')
-st.markdown('### O que você na foto abaixo?')
+st.markdown('### O que você vê na foto abaixo?')
 st.write('Instruções para o teste: aperte o botão "Gravar" para iniciar a gravação. Ao final, aperte o mesmo botão para enviar a sua resposta.')
 st.image('mapa_brasil.jpg')
 
