@@ -1,4 +1,5 @@
 assemblyai  
 asyncio
+openai
 streamlit
 streamlit-audiorecorder
