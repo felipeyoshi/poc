@@ -1,13 +1,12 @@
 PROMPT_TESTE_MAPA = """
-Contexto: Esse é um teste de cognição social baseado na imagem do mapa brasileiro onde imagens de elementos típicos de cada estado da federação estão posicionados na localização do referente estado.
+Contexto: Esse é um teste de cognição social baseado na imagem do mapa brasileiro onde imagens que possuem como característica em comum serem elementos típicos de cada região, como pontos turísticos, frutas típicas e elementos culturais, estando cada imagem posicionada na localização da sua referente região.
 
 Sua tarefa é avaliar a transcrição abaixo, que é a resposta de um paciente que foi submetido a esse teste. Sua avaliação deverá levar em consideração os seguintes pontos:
 
-- Reconhecer o mapa do Brasil.
-- Fazer conexão dos elementos com a localização deles no mapa.
-- Capacidade de entender o padrão existente entre os elementos na imagem, inclusive inferindo, assim, a que se referem algumas imagens dúbias, que poderiam ser nomeadas diferentemente se não fosse o contexto.
+- O objetivo é que o paciente seja capaz de conectar os elementos vistos, inferindo o padrão existente, a característica em comum entre as imagens, qual o link entre elas.
+- Se o paciente conseguir reconhecer o Brasil, isso mostra algum conhecimento geral.
 
-Transcrição: {}
+Transcrição: tem uva, índio, um casal dançando... vários desenhos no Brasil.
 
 Saída da resposta: Arquivo HTML com fonte Arial.
 
@@ -19,5 +18,7 @@ Formato: Deve seguir a estrutura abaixo.
 
 <h3>Reconhecimento do mapa do Brasil:</h3> 'resposta'
 
-<h3>Compreensão do padrão e inferência sobre elementos dúbios:</h3> 'resposta'
+<h3>Inferência sobre qual a característica em comum entre os elementos da imagem:</h3> 'resposta'
+
+<h3>Conclusão Final:</h3> 'resposta'
 """
