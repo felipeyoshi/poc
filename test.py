@@ -37,9 +37,9 @@ st.session_state.text_edited = st.text_area('Editar a transcrição:', st.sessio
 if st.button('Enviar!'):
     st.text('Sua resposta foi enviada!')
     prompt_map_test = PROMPT_TESTE_MAPA.format(st.session_state.text_edited) 
-    st.session_state.prompt_edited = st.text_area('Prompt:', prompt_map_test, height=300)
+    #st.session_state.prompt_edited = st.text_area('Prompt:', prompt_map_test, height=300)
     agent = "Você é um especialista em cognição social."
     llm = LLM(openai_key)
-    message = llm.get_prompt(agent, st.session_state.prompt_edited)
+    message = llm.get_prompt(agent, prompt_map_test)
     result_map_test = llm.get_completion(message)
     st.components.v1.html(result_map_test, height=500, scrolling=True)
