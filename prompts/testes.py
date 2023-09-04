@@ -6,7 +6,7 @@ Sua tarefa é avaliar a transcrição abaixo, que é a resposta de um paciente q
 - O objetivo é que o paciente seja capaz de conectar os elementos vistos, inferindo o padrão existente, a característica em comum entre as imagens, qual o link entre elas.
 - Se o paciente conseguir reconhecer o Brasil, isso mostra algum conhecimento geral.
 
-Transcrição: tem uva, índio, um casal dançando... vários desenhos no Brasil.
+Transcrição: {}
 
 Saída da resposta: Arquivo HTML com fonte Arial.
 

@@ -24,7 +24,7 @@ st.markdown('### O que você vê na foto abaixo?')
 st.write('Instruções para o teste: aperte o botão "Gravar" para iniciar a gravação. Ao final, aperte o mesmo botão para enviar a sua resposta.')
 st.image('mapa_brasil.jpg')
 
-audio = audiorecorder("Gravar", "Gravando...")
+audio = audiorecorder("Gravar", "Finalizar gravação")
 
 if len(audio) > 0 and st.session_state.text == '':
     wav_file = open("audio.wav", "wb") 
